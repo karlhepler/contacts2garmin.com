@@ -1,0 +1,332 @@
+/********************************************************************/
+/***********************     RESET CSS     **************************/
+/********************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+    font-family:sans-serif;
+    text-decoration:none;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/********************************************************************/
+/***********************     RESET CSS     **************************/
+/********************************************************************/
+
+body {
+    background-color:#8B7355;
+}
+
+#progress-area {
+    /***********************/	
+	/* Position Properties */
+	/***********************/
+	position:relative;
+	width:800px;
+	height:60px;
+	top:0px;
+	left:0px;
+	margin:0px auto 0px auto;
+	/***********************/
+	
+    background:url("images/viewarrows-bg.png") top left no-repeat lightblue;
+}
+#content {
+    /***********************/	
+	/* Position Properties */
+	/***********************/
+	position:relative;
+	width:880px;
+	height:350px;
+	top:0px;
+	left:0px;
+	margin:0px auto 0px auto;
+	/***********************/
+	
+    background-color:lightblue;
+	
+	/* Border */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+#button {
+    /***********************/	
+	/* Position Properties */
+	/***********************/
+	position:absolute;
+	width:64px;
+	height:64px;
+	top:0px;
+	left:0px;
+	margin:138px 0px 0px 848px;
+    padding:0px;
+	/***********************/
+	
+	background:url("images/button2.png") top left no-repeat lightgreen;
+}
+#button:hover {
+	background-color:yellow;
+}
+#button:active {
+	background-color:lightgreen;
+}
+	.enabled {
+		cursor:pointer;
+	}
+#rb-requirements {
+	background:url("images/requirements.jpg") center no-repeat #FFFFFF;
+}
+#rb-plugin {
+	background:url("images/plugin.jpg") center no-repeat #FFFFFF;
+}
+#rb-usb {
+	background:url("images/usb.jpg") center no-repeat #FFFFFF;
+}
+.progress-sect {
+    /***********************/	
+	/* Position Properties */
+	/***********************/
+	position:relative;
+    width:120px;
+	height:40px;
+    padding:10px 10px 10px 70px;
+	/***********************/
+	
+    float:left;
+	background:url("images/viewarrow2.png") top left no-repeat lightblue;
+	font-size:20px;
+	text-align:center;
+	
+	color:#BBBBBB;
+	cursor:default;
+	
+	text-shadow:1px 1px 1px #333333;
+}
+    #progress-1 {
+        width:150px;
+        background:none;
+        padding-left:10px;
+		color:yellow;
+    }
+    #progress-4 {
+        width:150px;
+    }
+
+#viewer {
+    /***********************/	
+	/* Position Properties */
+	/***********************/
+	position:absolute;
+	width:780px;
+	height:315px;
+	margin:15px 50px;
+	/***********************/
+}
+
+.page {
+    /***********************/	
+	/* Position Properties */
+	/***********************/
+	position:absolute;
+	width:760px;
+	height:295px;
+    padding:10px;
+	/***********************/
+	
+	background-color:#FFFFFF;
+	border:1px solid blue;
+	
+    /* Border */
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+#page-1 {
+    
+}
+#page-2 {
+    
+}
+#page-3 {
+    
+}
+#page-4 {
+    
+}
+.half {
+	width:50%;
+	height:295px;
+	float:left;
+	overflow:auto;
+}
+    
+#loading {
+    /***********************/	
+	/* Position Properties */
+	/***********************/
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	margin:0px;
+    padding:0px;
+    z-index:99;
+	/***********************/
+}
+    #loading span {
+        /***********************/	
+        /* Position Properties */
+        /***********************/
+        position:relative;
+        display:block;
+        width:200px;
+        height:100px;
+        margin:150px auto 0px auto;
+        padding-top:50px;
+        /***********************/
+        
+        text-align:center;
+		color:#FFFFFF;
+		text-shadow:0px 0px 3px #000000;
+		font-weight:bold;
+        background:url("images/shade.png") top left repeat transparent;
+        
+        /* Border */
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+    }
+    #loading img {
+        width:32px;
+        height:32px;
+    }
+	
+/************************/
+/*      FORM STUFF      */
+/************************/
+label, input { display:block; }
+input.text { margin-bottom:12px; width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+div#users-contain { width: 350px; margin: 20px 0; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .1em; }
+.validateTips { font-size:12px; border: 1px solid transparent; padding: 0.1em; }
+/************************/
+/*      FORM STUFF      */
+/************************/
+
+#map_canvas {
+    width:100%;
+    height:100%;
+}
+
+#progress-bar {
+	position:absolute;
+	width:758px;
+	height:20px;
+	margin:284px 0px 0px 10px;
+	z-index:105;
+}
+#progress-bar div {
+	position:absolute;
+	width:758px;
+	height:20px;
+}
+#progress-bar div div {
+	position:relative;
+	width:500px;
+	height:20px;
+	margin:auto;
+	text-align:center;
+	z-index:110;
+	font-size:18px;
+	cursor:default;
+}
+.requirements-box {
+	/***********************/	
+	/* Position Properties */
+	/***********************/
+	position:relative;
+	width:220px;
+	height:200px;
+	margin:48px 15px;
+	/***********************/
+	
+	float:left;
+    background-color:#FFFFFF;
+	border:solid 1px lightblue;
+	
+	/* Border */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.requirements-box:hover {
+	border:solid 1px yellow;
+	cursor:pointer;
+}
+.requirements-box div {
+	position:relative;
+	text-align:center;
+	width:220px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:145px;
+	color:white;
+	text-shadow:0px 0px 3px #000000;
+	background:url("images/shade.png") top left repeat transparent;
+	font-weight:bold;
+	
+	/* Border */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}

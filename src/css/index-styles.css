@@ -1,0 +1,174 @@
+/********************************************************************/
+/***********************     RESET CSS     **************************/
+/********************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+    font-family:sans-serif;
+    text-decoration:none;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/********************************************************************/
+/***********************     RESET CSS     **************************/
+/********************************************************************/
+
+body {
+	background-color:#8B7355;
+}
+#header {
+	/***********************/	
+	/* Position Properties */
+	/***********************/
+	position:absolute;
+	width:100%;
+	height:50px;
+	top:0px;
+	left:0px;
+	margin:0px 0px 0px 0px;
+	z-index:1;
+	/***********************/
+	
+	background-color:#8B7355;
+}
+#header h1 {
+	font-size:48px;
+	cursor:default;
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	text-align:center;
+}
+	.text-inset {
+		color:#333333;
+		text-shadow:1px 1px 1px white;
+	}
+	.text-outset {
+		color:white;
+		text-shadow:1px 1px 1px #333333;
+	}
+	
+#content {
+	/***********************/	
+	/* Position Properties */
+	/***********************/
+	position:relative;
+	width:940px;
+	height:410px;
+	top:0px;
+	left:0px;
+	margin:50px auto 0px auto;
+	z-index:0;
+	/***********************/
+	
+	background-color:#0038A8;
+}
+
+#footer {
+	/***********************/	
+	/* Position Properties */
+	/***********************/
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	/*margin:*/
+	z-index:1;
+	/***********************/
+	
+	background-color:#483C2D;
+	border-top:solid 5px lightblue;
+}
+	.footer-opened {
+		margin:465px 0px 0px 0px;
+	}
+	.footer-closed {
+		margin:50px 0px 0px 0px;
+	}
+
+#loading {
+    /***********************/	
+	/* Position Properties */
+	/***********************/
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	margin:0px;
+    padding:0px;
+    z-index:99;
+	/***********************/
+}
+    #loading span {
+        /***********************/	
+        /* Position Properties */
+        /***********************/
+        position:relative;
+        display:block;
+        width:200px;
+        height:100px;
+        margin:150px auto 0px auto;
+        padding-top:50px;
+        /***********************/
+        
+        text-align:center;
+		color:#FFFFFF;
+		text-shadow:0px 0px 3px #000000;
+		font-weight:bold;
+        background:url("images/shade.png") top left repeat transparent;
+        
+        /* Border */
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+    }
+    #loading img {
+        width:32px;
+        height:32px;
+    }
